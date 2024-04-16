@@ -1,15 +1,16 @@
-Python Basics & Introductory Flopy example
+Python Basics & Introductory FloPy Example
 -----------------------------------------------
+This repository contains a few basic examples to gain experience with basic Python functions and simulate a simple groundwater flow model in FloPy. Students should first work through the Python_basics.ipynb file to gain familiarity with Python functions. Then they can work through Examples 1 and 2 which are two versions of a simple MODFLOW model. Example 1 only has recharge, a river, and a general head boundary. While Example 2 adds a pumping well to the center of the model domain.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ebake310/GW_Model_GEOSC209.git/HEAD)
 
-## Running the example
+## Running the scripts
 There are two ways to run the example:
 
 1) Online via Binder: https://mybinder.org/v2/gh/ebake310/GW_Model_GEOSC209.git/HEAD
 2) Locally on your computer, after creating a suitable python environment
 
-### Running the example locally
+### Running the scripts locally
 
 1) Download and install the 64-bit [Anaconda python distribution](https://www.anaconda.com/distribution/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 
