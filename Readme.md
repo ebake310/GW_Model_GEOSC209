@@ -6,7 +6,7 @@ Python Basics & Introductory Flopy example
 ## Running the example
 There are two ways to run the example:
 
-1) [online via Binder](https://mybinder.org/v2/gh/aleaf/pleasant-lake-flopy-example/HEAD?labpath=worked_flopy_example.ipynb)
+1) [online via Binder](https://mybinder.org/v2/gh/aleaf/pleasant-lake-flopy-example/HEAD?labpath=worked_flopy_example.ipynb](https://mybinder.org/v2/gh/ebake310/GW_Model_GEOSC209.git/HEAD)
 2) Locally on your computer, after creating a suitable python environment
 
 ### Running the example locally
