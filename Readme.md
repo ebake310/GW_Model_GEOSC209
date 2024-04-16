@@ -1,10 +1,7 @@
-Pleasant Lake worked Flopy example
+Python Basics & Introductory Flopy example
 -----------------------------------------------
-This repository contains a worked example of the Pleasant Lake problem (Fienen et al., 2022) that demonstrates the use of the [Flopy Python Package](https://github.com/modflowpy/flopy) to assemble a [MODFLOW 6](https://www.usgs.gov/software/modflow-6-usgs-modular-hydrologic-model) groundwater flow model with external array input and advanced boundary conditions.
 
-![Tests](https://github.com/aleaf/2022-gw-tech-spotlight-flopy/workflows/Test/badge.svg)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aleaf/pleasant-lake-flopy-example/HEAD?labpath=worked_flopy_example.ipynb)
-[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ebake310/GW_Model_GEOSC209.git/HEAD)
 
 ## Running the example
 There are two ways to run the example:
@@ -45,27 +42,3 @@ There are two ways to run the example:
     A new browser tab should pop up with the Jupyter file browser. Navigate to ``worked_flopy_example.ipynb`` and click on it. For more information on Jupyter Notebooks, refer to the documentation: https://jupyter.org.
 
     **Note:** Running the model through Flopy (as in the Notebook) requires specification of the MODFLOW executable. In the example, we assume that a MODFLOW 6 executable named ``"mf6"`` is visible in the system path at the location of this folder (see the ``exe_name`` argument in Notebook cell 5). Executables for MODFLOW 6 for linux, mac and windows are included in the ``bin/`` folder.
-
-### References
-Fienen, M.N., Haserodt, M.J., Leaf, A.T., Westenbroek, S.M., 2022, Simulation of Regional Groundwater Flow and Groundwater/Lake Interactions in the Central Sands, Wisconsin: U.S. Geological Survey Scientific Investigations Report 2022-5046, http://doi.org/10.3133/sir20225046
-
-### How to cite this example:
-*Groundwater* Technology Spotlight article:  
-Leaf, A.T. and Fienen, M.N. (2022), Flopy – the Python interface for MODFLOW. Groundwater (in revision), xx: xxx-xxx. https://doi.org/10.1111/gwat.xxxxx
-
-USGS Software release citation:  
-Leaf, A.T. and Fienen, M.N. (2022). Pleasant Lake worked Flopy example, version 0.1, U.S. Geological Survey Software Release (IP-143803; in review), 1 Sept 2022. https://doi.org/10.5066/P9EFHF9H
-
-Disclaimer
-----------
-
-This software is preliminary or provisional and is subject to revision. It is
-being provided to meet the need for timely best science. The software has not
-received final approval by the U.S. Geological Survey (USGS). No warranty,
-expressed or implied, is made by the USGS or the U.S. Government as to the
-functionality of the software and related material nor shall the fact of release
-constitute any such warranty. The software is provided on the condition that
-neither the USGS nor the U.S. Government shall be held liable for any damages
-resulting from the authorized or unauthorized use of the software. It is the responsibility of the user to check the accuracy of the results.
-
-Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.
