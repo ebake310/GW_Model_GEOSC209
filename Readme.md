@@ -40,6 +40,6 @@ There are two ways to run the example:
 
         jupyter notebook
 
-    A new browser tab should pop up with the Jupyter file browser. Navigate to ``worked_flopy_example.ipynb`` and click on it. For more information on Jupyter Notebooks, refer to the documentation: https://jupyter.org.
+    A new browser tab should pop up with the Jupyter file browser. For more information on Jupyter Notebooks, refer to the documentation: https://jupyter.org.
 
     **Note:** Running the model through Flopy (as in the Notebook) requires specification of the MODFLOW executable. In the example, we assume that a MODFLOW 6 executable named ``"mf6"`` is visible in the system path at the location of this folder (see the ``exe_name`` argument in Notebook cell 5). Executables for MODFLOW 6 for linux, mac and windows are included in the ``bin/`` folder.
